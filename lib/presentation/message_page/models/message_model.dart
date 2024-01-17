@@ -1,0 +1,5 @@
+import '../../../core/app_export.dart';import 'messages_item_model.dart';/// This class defines the variables used in the [message_page],
+/// and is typically used to hold data that is passed between different parts of the application.
+class MessageModel {Rx<List<MessagesItemModel>> messagesItemList = Rx([MessagesItemModel(wadeWarren:ImageConstant.imgImg48x48.obs,wadeWarren1: "Wade Warren".obs,message: "Oh hello Willam...".obs,time: "23:15".obs),MessagesItemModel(wadeWarren:ImageConstant.imgImg1.obs,wadeWarren1: "Cameron Williamson".obs,message: "Hey my friend, how are you?".obs,time: "22:10".obs),MessagesItemModel(wadeWarren:ImageConstant.imgImg2.obs,wadeWarren1: "Jenny Wilson".obs,message: "Can I meet you today?".obs,time: "21:00".obs),MessagesItemModel(wadeWarren:ImageConstant.imgImg3.obs,wadeWarren1: "Kristin Watson".obs,message: "Can I meet you today?".obs,time: "Yesterday".obs),MessagesItemModel(wadeWarren:ImageConstant.imgImg4.obs,wadeWarren1: "Robert Fox".obs,message: "Can I meet you today?".obs,time: "Nov 15".obs)]);
+
+ }
